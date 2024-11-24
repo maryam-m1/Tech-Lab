@@ -1,10 +1,10 @@
 #Calculator 
 x=int(input("Please enter first Number : "))
-while (x<=0):
+while (x<0):
   x=int(input("Please enter first Number : "))    
 
 y=int(input("Please enter second Number : "))
-while (y<=0):
+while (y<0):
       y=int(input("Please enter second Number : ")) 
 
 print("Adiition of two numbers: ",x+y)
